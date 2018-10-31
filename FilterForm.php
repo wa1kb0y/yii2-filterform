@@ -2,7 +2,7 @@
 namespace walkboy\FilterForm;
 
 use yii\widgets\ActiveForm;
-use common\widgets\FilterForm\FilterFormAsset;
+use walkboy\FilterForm\FilterFormAsset;
 
 
 class FilterForm extends ActiveForm

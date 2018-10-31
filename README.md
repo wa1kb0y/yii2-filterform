@@ -1,5 +1,5 @@
 # Installation
-Add `"walkboy/yii2-filter-form": "dev-master"` to composer.json and run `composer update`
+Add `"walkboy/yii2-filterform": "dev-master"` to composer.json and run `composer update`
 
 # Usage
 ```

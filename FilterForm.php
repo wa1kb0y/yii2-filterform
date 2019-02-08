@@ -12,6 +12,6 @@ class FilterForm extends ActiveForm
     	$view = $this->getView();
     	FilterFormAsset::register($view);
 
-  		parent::run();
+  		return parent::run();
     }
 }

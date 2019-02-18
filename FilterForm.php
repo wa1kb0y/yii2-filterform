@@ -10,7 +10,14 @@ class FilterForm extends ActiveForm
 	public function run()
     {
     	$view = $this->getView();
-    	FilterFormAsset::register($view);
+    	$view->registerJs('
+    		$(function() {
+    		    $(".filter-form .form-control").change(function () {
+    		        var form = $(this).closest("form");
+    			    form.submit();
+    		    });
+    		});
+    	');
 
   		return parent::run();
     }
